@@ -141,6 +141,16 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/contents</li>
+
+<li>$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/pagecontrols</li>
+
+<li>$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/sidebar</li>
+
+<li>$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/topleftbar</li>
+
+<li>$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/toprightbar</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -169,6 +179,10 @@ Error message and password prompt
 
 <li>$:/state/plugin-info--270617185-$:/themes/tiddlywiki/tight</li>
 
+<li>$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar</li>
+
+<li>$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar--331413611</li>
+
 <li>$:/state/sidebar</li>
 
 <li>$:/state/tab--1963855381</li>
@@ -180,8 +194,6 @@ Error message and password prompt
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
-
-<li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
@@ -421,6 +433,21 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20200611073339626" modified="20200611073340126" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/contents">
+<pre>show</pre>
+</div>
+<div created="20200611073333300" modified="20200611073333300" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/pagecontrols">
+<pre>show</pre>
+</div>
+<div created="20200611073353711" modified="20200611073356019" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/sidebar">
+<pre>hide</pre>
+</div>
+<div created="20200611073341354" modified="20200611073344761" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/topleftbar">
+<pre>hide</pre>
+</div>
+<div created="20200611073347060" modified="20200611073347564" title="$:/config/plugins/menubar/MenuItems/Visibility/$:/plugins/tiddlywiki/menubar/items/toprightbar">
+<pre>show</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9958,7 +9985,13 @@ Error message and password prompt
 <div created="20200610054417852" modified="20200610054418344" title="$:/state/plugin-info--270617185-$:/themes/tiddlywiki/tight">
 <pre>no</pre>
 </div>
-<div created="20200610054436225" modified="20200610054437373" title="$:/state/sidebar">
+<div created="20200611073329870" modified="20200611073329870" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar">
+<pre>yes</pre>
+</div>
+<div created="20200611073330696" modified="20200611073330696" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/menubar--331413611">
+<pre>config</pre>
+</div>
+<div created="20200610054436225" modified="20200611073348957" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20200610054446784" modified="20200610054517444" title="$:/state/tab--1963855381">
@@ -9970,19 +10003,16 @@ Error message and password prompt
 <div created="20200610054349480" modified="20200610054421958" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
 </div>
-<div created="20200610043412929" modified="20200610092621154" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20200610043412929" modified="20200611073327560" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
 <div created="20200610043415258" modified="20200610043415258" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20200611064310766" modified="20200611064313325" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Tools</pre>
-</div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="Startsida" title="$:/StoryList">
+<div created="20200611064436551" list="" modified="20200611073321559" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10990,8 +11020,8 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20200610043613053" dependents="" description="Basic theme" modified="20200610043613053" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" requires-reload="no" server-url="https://tiddlywiki.com/library/v5.1.22/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.22">
 <pre></pre>
 </div>
-<div created="20200611064304772" modified="20200611064309557" title="$:/temp/search">
-<pre></pre>
+<div created="20200611064433897" modified="20200611064434544" title="$:/temp/search">
+<pre>patella</pre>
 </div>
 <div created="20200610054404790" modified="20200610054404790" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html" url="https://tiddlywiki.com/library/v5.1.22/index.html">
 <pre>loaded</pre>
@@ -11133,10 +11163,10 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20200610054451494" modified="20200610054504331" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
 </div>
-<div created="20200611064315975" modified="20200611064334041" tags="" title="Patellaluxation">
+<div created="20200611064222048" modified="20200611064249867" tags="" title="Patellaluxation">
 <pre>https://radiopaedia.org/articles/patellofemoral-instability?lang=gb
 
-http://files.barnklinikdagarna-2014.webnode.se/200000103-0ef140feb6/kn%C3%A4%20140506%20hemsidan.pdf (Trochleadysplasi) Ta bilder härifrån.</pre>
+http://files.barnklinikdagarna-2014.webnode.se/200000103-0ef140feb6/kn%C3%A4%20140506%20hemsidan.pdf (Termer kring barn och trochleadysplasi)</pre>
 </div>
 <div created="20200610090951392" modified="20200610091021893" tags="" title="Startsida">
 <pre>[[Trauma|Trauma]]
